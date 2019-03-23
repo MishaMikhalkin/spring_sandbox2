@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.m2n.springexample.lab1_config.main" target="1.8" />
+      <module name="com.m2n.springexample.lab1_config.test" target="1.8" />
+      <module name="com.m2n.springexample.lab3.main" target="1.8" />
+      <module name="com.m2n.springexample.lab3.test" target="1.8" />
+      <module name="com.m2n.springexample.questionnaire.main" target="1.8" />
+      <module name="com.m2n.springexample.questionnaire.test" target="1.8" />
+      <module name="lab3.lab1.main" target="1.8" />
+      <module name="lab3.lab1.test" target="1.8" />
+      <module name="lab3.lab1_config.main" target="11" />
+      <module name="lab3.lab1_config.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

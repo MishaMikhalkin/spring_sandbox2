@@ -1,0 +1,122 @@
+Index: src/test/resources/name-answers_en.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/name-answers_en.csv	(date 1552426549000)
++++ src/test/resources/name-answers_en.csv	(date 1552426549000)
+@@ -0,0 +1,5 @@
++1,      1,      answer11,    0
++2,      1,      answer12,    1
++3,      2,      answer21,    0.3
++4,      2,      answer22,    0
++5,      2,      answer23,    0.3
+\ No newline at end of file
+Index: src/test/resources/name-answers_ru.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/name-answers_ru.csv	(date 1551209327000)
++++ src/test/resources/name-answers_ru.csv	(date 1551209327000)
+@@ -0,0 +1,5 @@
++1,      1,      ответ11,    0
++2,      1,      ответ12,    1
++3,      2,      ответ21,    0.3
++4,      2,      ответ22,    0
++5,      2,      ответ23,    0.3
+\ No newline at end of file
+Index: src/main/resources/message_ru.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#StudentConsoleDao\ninsertfn=Введите имя студента:\ninsertln=Введите фамилию студента:\n#QuestionareCSVDao\nquestions={0}-questions_ru.csv\nanswers={0}-answers_ru.csv\n#InquirerServiceImpe\ninsertquestion=Вопрос {0} из {1}: {2}\ninsertpropanswer= Ответ {0}: {1}\ninsertanwser=Введите номер ответа:\n#questionarie files\nscore=Результат: {0}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/message_ru.properties	(revision f6210d1a2e2a58fcda572e65d396c0bf80ee5c33)
++++ src/main/resources/message_ru.properties	(date 1552666922000)
+@@ -1,9 +1,6 @@
+ #StudentConsoleDao
+ insertfn=Введите имя студента:
+ insertln=Введите фамилию студента:
+-#QuestionareCSVDao
+-questions={0}-questions_ru.csv
+-answers={0}-answers_ru.csv
+ #InquirerServiceImpe
+ insertquestion=Вопрос {0} из {1}: {2}
+ insertpropanswer= Ответ {0}: {1}
+Index: src/test/resources/message_en.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/message_en.properties	(date 1552666922000)
++++ src/test/resources/message_en.properties	(date 1552666922000)
+@@ -0,0 +1,9 @@
++#StudentConsoleDao
++insertfn=Enter student name:
++insertln=Enter student surname:
++#InquirerServiceImpe
++insertquestion=Question {0} from {1}: {2}
++insertpropanswer= Answer {0}: {1}
++insertanwser=Insert answer number:
++#questionarie files
++score=Result: {0}
+Index: src/test/resources/message_ru.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/message_ru.properties	(date 1552666922000)
++++ src/test/resources/message_ru.properties	(date 1552666922000)
+@@ -0,0 +1,9 @@
++#StudentConsoleDao
++insertfn=Введите имя студента:
++insertln=Введите фамилию студента:
++#InquirerServiceImpe
++insertquestion=Вопрос {0} из {1}: {2}
++insertpropanswer= Ответ {0}: {1}
++insertanwser=Введите номер ответа:
++#questionarie files
++score=Результат: {0}
+Index: src/main/resources/message_en.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#StudentConsoleDao\ninsertfn=Enter student name:\ninsertln=Enter student surname:\n#QuestionareCSVDao\nquestions={0}-questions_{1}.csv\nanswers={0}-answers_{1}.csv\n#InquirerServiceImpe\ninsertquestion=Question {0} from {1}: {2}\ninsertpropanswer= Answer {0}: {1}\ninsertanwser=Insert answer number:\n#questionarie files\nscore=Result: {0}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/message_en.properties	(revision f6210d1a2e2a58fcda572e65d396c0bf80ee5c33)
++++ src/main/resources/message_en.properties	(date 1552666922000)
+@@ -1,9 +1,6 @@
+ #StudentConsoleDao
+ insertfn=Enter student name:
+ insertln=Enter student surname:
+-#QuestionareCSVDao
+-questions={0}-questions_{1}.csv
+-answers={0}-answers_{1}.csv
+ #InquirerServiceImpe
+ insertquestion=Question {0} from {1}: {2}
+ insertpropanswer= Answer {0}: {1}
+Index: src/test/resources/name-questions_en.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/name-questions_en.csv	(date 1552426562000)
++++ src/test/resources/name-questions_en.csv	(date 1552426562000)
+@@ -0,0 +1,2 @@
++1,question1
++2,question2
+\ No newline at end of file
+Index: src/test/resources/name-questions_ru.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/name-questions_ru.csv	(date 1551128247000)
++++ src/test/resources/name-questions_ru.csv	(date 1551128247000)
+@@ -0,0 +1,2 @@
++1,вопрос1
++2,вопрос2
+\ No newline at end of file
