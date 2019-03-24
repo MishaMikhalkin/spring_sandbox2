@@ -1,0 +1,6 @@
+debug: false
+lab1:
+  language : "en"
+  questionFilePrefix: "name-questions"
+  answerFilePrefix: "name-answers"
+  fileNameFormat: '%s_%s.csv'

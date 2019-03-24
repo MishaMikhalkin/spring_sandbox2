@@ -1,0 +1,2 @@
+rootProject.name = 'lab3'
+include 'lab1', 'lab1_config', 'questionnaire'
